@@ -1,0 +1,14 @@
+/* All CSS Variables */
+
+:root {
+  --color-font-one: #100024;
+  --color-font-two: #4B4B55;
+  --color-font-three: #E5F8F4;
+  --color-font-four: #E5EEFB;
+  --color-font-five: #ABABB4;
+
+  --color-bg-button: #100024;
+  --color-bg: #FFFFFF;
+  
+  --font-main: 'Roboto', sans-serif;
+}

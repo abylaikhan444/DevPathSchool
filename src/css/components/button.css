@@ -1,0 +1,21 @@
+.btn-log, .btn-signup {
+    width: 125px;
+    height: 50px;
+    display: flex;          /* flex-контейнер на самой кнопке */
+    align-items: center;    /* теперь текст внутри центрируется по вертикали */
+    justify-content: center; /* и по горизонтали */
+    font-weight: 400;
+    
+}
+
+.btn-log {
+    font-size: 20px;
+
+}
+
+.btn-signup {
+    background-color: var(--color-bg-button);
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+}
