@@ -1,0 +1,20 @@
+.airlines-log-part {
+    font-family: Roboto, sans-serif;
+    margin-top: 25px;
+}
+
+.airlines-text {
+    display: flex;
+    font-size: 19px;
+    color: var(--color-font-two);
+    justify-content: center;
+
+}
+
+.airlines-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
