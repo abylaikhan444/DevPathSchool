@@ -1,3 +1,53 @@
 main {
     display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    gap: 200px;
+    font-family: Roboto, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.main-text-side>h1 {
+    color: var(--color-font-one);
+    font-size: 88px;
+    font-weight: 400;
+    width: 480px;
+    line-height: 1;
+
+}
+
+.main-text-side>p {
+    color: var(--color-font-six);
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 500px;
+
+}
+
+.main-figure-side>img {
+    width: 800px;
+    height: 600px;
+}
+
+.main-reglog {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-reglog>a {
+    font-size: 26px;
+    
+}
+
+.main-reglog>.btn-signup,.btn-log {
+    width: 190px;
+    height: 70px;
+
 }
