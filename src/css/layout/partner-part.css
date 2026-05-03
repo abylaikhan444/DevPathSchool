@@ -1,0 +1,92 @@
+.partners-part {
+    font-family: Roboto, sans-serif;
+    background-color: var(--color-bg-two);
+    
+    
+    
+}
+
+.partners-box-gallery {
+    width: 400px; /* = ширина одного слайда */
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+.partners-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.partners-part>h2 {
+    font-size: 80px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.partners-box-slides {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 50px;
+}
+
+.partner-slide {
+    border-color: var(--slider-box-partner);
+    border: 0.3mm ridge;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 20px;
+    min-width: 400px;
+}
+
+.partner-slide>img {
+    width: 150px;
+    margin-top: 50px;
+}
+
+.partner-slide>p {
+    font-size: 22px;
+    color: var(--color-font-two);
+
+}
+
+.slider-button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.partners-selling-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.partners-selling-side {
+    background-image: url(/src/img/slider-partner/bg-fugure1.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.partners-selling-side>h2 {
+    font-size: 36px;
+}
+
+.partners-selling-side>p {
+    font-size: 22px;
+}
+
+.partners-selling-button {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}

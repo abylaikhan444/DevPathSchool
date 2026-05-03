@@ -2,7 +2,7 @@
     font-family: Roboto, sans-serif;
     margin-top: 50px;
     background-color: var(--color-bg-two);
-
+    padding: 100px;
 }
 
 .carts-part>h2 {
