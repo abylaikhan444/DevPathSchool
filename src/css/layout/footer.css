@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--color-font-one);
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+
+}
+
+.subscribe-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.subscribe-box p {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.about-us-box {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.about-us-item>h2 {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.about-us-item>p {
+    font-size: 12px;
+    font-weight: 200;
+    
+}
