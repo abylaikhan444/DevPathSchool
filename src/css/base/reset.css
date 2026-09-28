@@ -1,6 +1,6 @@
 /* ============================================================
    RESET.CSS — Universal Reset Template
-   Автор: твой шаблон | Версия: 1.0
+   Автор: Aby444 | Версия: 1.0
    Подключай первым: <link rel="stylesheet" href="reset.css">
    ============================================================ */
 
@@ -140,7 +140,6 @@ legend {
 }
 
 [type="search"] {
-  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 

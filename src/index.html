@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevSchool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/base/variables.css" />
+    <link rel="stylesheet" href="/src/css/base/reset.css" />
+    <link rel="stylesheet" href="/src/css/components/button.css" />
+    <link rel="stylesheet" href="/src/css/layout/header.css" />
+    <link rel="stylesheet" href="/src/css/layout/footer.css" />
+    <link rel="stylesheet" href="/src/css/layout/main.css" />
+    <link rel="stylesheet" href="/src/css/layout/airlines-section.css" />
+    <link rel="stylesheet" href="/src/css/layout/intro-section.css" />
+    <link rel="stylesheet" href="/src/css/layout/slider-part.css" />
+    <link rel="stylesheet" href="/src/css/layout/carts-part.css" />
+    <link rel="stylesheet" href="/src/css/layout/api-parts.css" />
+    <link rel="stylesheet" href="/src/css/layout/partner-part.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo"><img src="/src/img/logo.png" alt="logo" /></a>
+        <div class="navbar-container">
+          <ul class="nav-links">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Company</a></li>
+          </ul>
+        </div>
+        <div class="navbar-reglog">
+          <a href="#" class="btn btn-log">Log in</a>
+          <a href="#" class="btn btn-signup">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main-text-side">
+        <h1>Sell flights. Without the complexity.</h1>
+        <p>
+          Any business – from travel startups to financial enterprises – can build with Duffel to search and book
+          flights, add ancillaries, charge customers, and manage orders.
+        </p>
+        <div class="main-reglog">
+          <a href="#" class="btn btn-signup">Sign up →</a>
+          <a href="#" class="btn btn-log">Contact Us</a>
+        </div>
+      </div>
+      <div class="main-figure-side">
+        <img src="/src/img/Gemini_Generated_Image_jm1rbhjm1rbhjm1r.png" alt="plane" />
+      </div>
+    </main>
+    <section class="airlines-log-part">
+      <div class="airlines-text">
+        <p>Connect to 300+ airlines for LCC, NDC, and GDS content</p>
+      </div>
+      <div class="airlines-logos">
+        <img src="/src/img/airlines-logos/IMAGE (5).jpg" alt="logo1" />
+        <img src="/src/img/airlines-logos/IMAGE (1).jpg" alt="logo1" />
+        <img src="/src/img/airlines-logos/IMAGE (2).jpg" alt="logo2" />
+        <img src="/src/img/airlines-logos/IMAGE (3).jpg" alt="logo3" />
+        <img src="/src/img/airlines-logos/IMAGE (4).jpg" alt="logo4" />
+      </div>
+    </section>
+    <section class="intro-part">
+      <div class="intro-items">
+        <div class="intro-items-text">
+          <div class="intro-items-text-up">
+            <h2>We're building the future of travel</h2>
+            <p>
+              Regulatory requirements, long processes, outdated software, and endless suppliers still create a lot of
+              complexity in the industry today. Our mission is to make travel effortless.
+            </p>
+          </div>
+          <div class="intro-items-text-down">
+            <div class="intro-items-text-down-mark mark">
+              <img src="/src/img/Vector.png" alt="mark" />
+              <p>No need for accreditation</p>
+            </div>
+            <div class="intro-items-text-down-mark mark">
+              <img src="/src/img/Vector.png" alt="mark" />
+              <p>Easy-to-use APIs</p>
+            </div>
+            <div class="intro-items-text-down-mark mark">
+              <img src="/src/img/Vector.png" alt="mark" />
+              <p>Instant access to airlines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider-part" id="slides">
+      <h2>Start and scale your business with ease</h2>
+      <div class="sliders-group">
+        <div class="slider-box">
+          <div class="slider-box-item">
+            <img src="/src/img/slider-part/slider-fugure1.png" alt="" />
+            <h2>New to selling flights</h2>
+            <p>
+              Start selling flights easily. With an integrated payments solution, accreditation covered, and no setup
+              fees, you can connect to the world's best airlines today.
+            </p>
+          </div>
+        </div>
+        <div class="dots" id="dots">
+          <div class="slider-box">
+            <div class="slider-box-item">
+              <img src="/src/img/slider-part/slider-fugure1.png" alt="" />
+              <h2>New to selling flights</h2>
+              <p>
+                Start selling flights easily. With an integrated payments solution, accreditation covered, and no setup
+                fees, you can connect to the world's best airlines today.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-button">
+        <button id="slider-prev" onclick="prev()">←</button>
+        <button id="slider-next" onclick="next()">→</button>
+      </div>
+    </section>
+    <section class="carts-part">
+      <h2>Build the best flights experience for your customers</h2>
+      <div class="carts-items">
+        <div class="carts-items-elements">
+          <div class="carts-items-text">
+            <h3>Flights API</h3>
+            <p>
+              Build an intuitive flight search, offer <br />
+              loyalty programme perks, add seats and <br />
+              bags, manage your orders, and more.
+            </p>
+            <button class="btn-learn">Learn more about flights →</button>
+          </div>
+          <div class="carts-items-gallery">
+            <div class="carts-gallery-box">
+              <h2>Search</h2>
+              <img src="/src/img/gallery-part/gallery-search.png" alt="search" />
+            </div>
+            <div class="carts-gallery-box">
+              <h2>Book</h2>
+              <img src="/src/img/gallery-part/gallery-book.png" alt="search" />
+            </div>
+            <div class="carts-gallery-box">
+              <h2>Ancillaries</h2>
+              <img src="/src/img/gallery-part/gallery-Ancillaries.png" alt="search" />
+            </div>
+            <div class="carts-gallery-box">
+              <h2>Order Management</h2>
+              <img src="/src/img/gallery-part/gallery-Order Management.png" alt="search" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="margin: 100px; color: gray" />
+      <div class="carts-part-managed">
+        <h3>Managed content</h3>
+        <p>
+          Access content from global airlines using our accreditation and <br />
+          ticketing authority →
+        </p>
+      </div>
+    </section>
+    <section class="api-parts">
+      <div class="api-parts-items">
+        <div class="api-parts-text">
+          <h2>Designed for developers</h2>
+          <p>
+            Comprehensive docs, user guides, client libraries in Node.js, <br />
+            Python and Ruby, and prebuilt components like seat selection <br />
+            and payments. We designed a great user experience to make it <br />
+            easier for you to do the same.
+          </p>
+          <button class="btn-learn">Explore documentation →</button>
+        </div>
+        <div class="api-parts-figure-code">
+          <img src="/src/img/apicode.png" alt="API" />
+        </div>
+      </div>
+    </section>
+    <section class="partners-part">
+      <h2>Become a success story</h2>
+      <div class="partners-box-gallery">
+        <div class="partners-track">
+          <div class="partner-slide">
+            <img src="/src/img/slider-partner/partner1.png" alt="partner one" />
+            <p>
+              Not only does Duffel remove <br />
+              these barriers, but its self-service <br />
+              platform is also incredibly intuitive.
+            </p>
+            <button>Read more →</button>
+          </div>
+          <div class="partner-slide">
+            <img src="/src/img/slider-partner/partner2.png" alt="partner one" />
+            <p>
+              We're investing massively in our <br />
+              supply to build, with the airlines <br />
+              and partners such as Duffel, the <br />
+              future of the airline industry.
+            </p>
+            <button>Read more →</button>
+          </div>
+          <div class="partner-slide">
+            <img src="/src/img/slider-partner/partner3.png" alt="partner one" />
+            <p>
+              The integration of Duffel's API to <br />
+              our multi-vendor technology <br />
+              allows us to take advantage of <br />
+              the new intelligent distribution <br />
+              channel.
+            </p>
+            <button>Read more →</button>
+          </div>
+        </div>
+      </div>
+      <div class="slider-button">
+        <button id="slider-partner-prev">←</button>
+        <button id="slider-partner-next">→</button>
+      </div>
+      <div class="partners-selling-box">
+        <div class="partners-selling-side">
+          <h2>Try it out on your own for free today</h2>
+          <p>Sign up and start selling flights in less than 1 minute.</p>
+          <div class="partners-selling-button">
+            <button class="btn-signup">Start now →</button>
+            <button class="btn">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="subscribe-box">
+        <p>Stay in the know with quarterly Duffel updates and industry trends.</p>
+        <p>By subscribing, I agree to receive communications by Duffel.</p>
+        <button class="btn-learn">Subscribe →</button>
+      </div>
+      <hr style="color: #413463; margin-left: 50px; margin-right: 50px" />
+      <div class="about-us-box">
+        <div class="about-us-item">
+          <h2>Product</h2>
+          <p>Flights API</p>
+          <p>Payments API</p>
+          <p>Airlines</p>
+          <p>Pricing</p>
+        </div>
+        <div class="about-us-item">
+          <h2>Developers</h2>
+          <p>Documentation</p>
+          <p>API Reference</p>
+          <p>Changelog</p>
+          <p>Status</p>
+        </div>
+        <div class="about-us-item">
+          <h2>Company</h2>
+          <p>Flights API</p>
+          <p>Careers</p>
+          <p>Contact us</p>
+        </div>
+        <div class="about-us-item">
+          <h2>Solutions</h2>
+          <p>Already selling flights</p>
+          <p>New to selling flights</p>
+        </div>
+        <div class="about-us-item">
+          <h2>Learn</h2>
+          <p>Blog</p>
+          <p>NDC guide</p>
+          <p>Start a travel business</p>
+        </div>
+        <div class="about-us-item">
+          <h2>Support</h2>
+          <p>Help centre</p>
+          <p>Contact us</p>
+        </div>
+      </div>
+      <hr style="color: #413463; margin-left: 50px; margin-right: 50px" />
+    </footer>
+
+    <script src="/src/js/partnerSlider.js"></script>
+    <!-- <script src="/src/js/slider.js"></script> -->
+  </body>
+</html>
